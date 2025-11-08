@@ -25,3 +25,13 @@ git init
 git remote add origin https://github.com/nidafatima01/GitEdit.git
 
 git pull origin master
+
+git status
+
+git add .
+git status
+git commit -m "Commit message"
+git push
+
+git push --set-upstream origin main
+
