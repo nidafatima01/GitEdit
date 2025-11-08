@@ -1,0 +1,27 @@
+GIT =>
+Git is a tool used to keep track of changes to files, especially the code of the projects. It is termed a distributed version control system because of its behaviour to allow multiple people to work on the same project, even if they are not connected to a common server.
+
+Reason to Choose Git
+Distributed System: Every developer has a complete local copy of the project.
+
+Performance: Git is fast and efficient, handling large projects with ease.
+
+Collaboration: Tools like GitHub enhance team collaboration, code reviews, and project management.
+
+Track Changes: Git tracks changes and maintains a history, making it easy to revert to previous versions.
+
+#Steps to Setup a Git
+Install Git: Download and install Git from the official Git website.
+https://youtu.be/ZnUMSNP1Dzk?si=QSPAsoBbaQv25p2h
+
+git --version
+
+Configure Git: Set up your username and email.
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+git init
+
+git remote add origin https://github.com/nidafatima01/GitEdit.git
+
+git pull origin master
